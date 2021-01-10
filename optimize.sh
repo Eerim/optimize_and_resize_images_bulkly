@@ -8,7 +8,7 @@ do
     #optimize images 
     jpegoptim --max=10 .jpg
     #resize images
-    convert *.jpg -resize 300x300\> *.jpg 
+    convert *.jpg -resize 300x300 *.jpg 
     #go back 
     cd ..
 done 
